@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin: 0 auto;
+     justify-content: space-around;
+
+}
+.nav_span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.button-login{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+width: 100%;
+margin: 0 auto;
+}
+
+.header_content .kiri{
+margin-left: 12%;
+margin-right: 12%;
+}
+.header_content .kiri h2 {
+    font-size: 42px;
+text-transform: capitalize;
+}
+.header_content .kiri button{
+    background-color: rgb(15, 39, 39);
+    color: azure;
+    width: 150px;
+    height: 38px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+
+.content-1{
+    height: 100vh;
+    background-color: rgb(245, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.content-1 h3{
+    font-size: 16px;
+    color: rgb(168, 165, 165);
+}
+
+.content-1 h2 {
+    font-size: 36px;
+    color: rgb(168, 165, 165);
+
+}
+.content-1 p {
+    color: rgb(168,165,165);
+}
+.cardded {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    
+}
+.card{
+    margin-top: 40px;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px -5px 62px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -5px 62px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -5px 62px -16px rgba(0,0,0,0.75);
+}
+.card .title {
+    font-size: 18px;
+    font-weight: 600;
+padding-top: 12px;
+color: rgb(133, 129, 129);
+}
+.card p {
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 250px;
+    height:150px;
+  
+}
+.footer {
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h2 {
+    color: white;
+    font-size: 16px;
+}
